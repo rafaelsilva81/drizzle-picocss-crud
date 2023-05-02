@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "db:migrate": "drizzle-kit generate:sqlite",
+    "db:up": "drizzle-kit up:sqlite"
   },
   "dependencies": {
     "@picocss/pico": "^1.5.10",
